@@ -1,0 +1,10 @@
+parameters:
+    paths:
+        - ../src
+        - ../tests
+    level: 5
+    treatPhpDocTypesAsCertain: false
+    excludePaths:
+        - ../src/entities/*
+        - ../tests/testcases/issues/Issue32Test.php
+        - ../src/quick/ZugferdQuickDescriptor.php
